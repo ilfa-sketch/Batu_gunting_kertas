@@ -11,10 +11,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 function HasilAkhir(player,compu){
-    if (player == compu) return "SERI!"
-    if (player == "batu") return (compu == "gunting") ? "MENANG" : "KALAH";
-    if (player == "gunting") return (compu == "kertas") ? "MENANG" : "KALAH";
-    if (player == "kertas") return (compu == "batu") ? "MENANG" : "KALAH";
+    if (player == compu) return "DRAW!"
+    if (player == "batu") return (compu == "gunting") ? "WIN" : "LOSE";
+    if (player == "gunting") return (compu == "kertas") ? "WIN" : "LOSE";
+    if (player == "kertas") return (compu == "batu") ? "WIN" : "LOSE";
     
 }
 
