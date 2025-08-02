@@ -7,8 +7,8 @@ body {
 
 .container {
   position: relative; /* Menetapkan posisi relatif pada elemen container */
-  width: 340px; /* Menyesuaikan lebar container */
-  height: 300px; /* Menyesuaikan tinggi container */
+  width: 100%; /* Menyesuaikan lebar container */
+  height: auto; /* Menyesuaikan tinggi container */
   overflow: hidden; /* Mengatur overflow untuk mengontrol tampilan elemen di dalam container */
   margin: 0 auto; /* Mengatur margin menjadi auto agar container berada di tengah */
   border-radius: 10%;
